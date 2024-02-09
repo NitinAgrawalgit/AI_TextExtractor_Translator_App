@@ -21,6 +21,7 @@ class UploadImgActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        overridePendingTransition(R.anim.enter_left_to_right, R.anim.exit_left_to_right)
         setContentView(R.layout.activity_upload_img)
 
         var cameraBtn = findViewById<ImageView>(R.id.cameraBtn)
