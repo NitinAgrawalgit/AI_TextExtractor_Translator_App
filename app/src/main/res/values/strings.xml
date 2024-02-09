@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">AITextExtractor</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">SnapText</string>
 
     <string name="splash_content2">Translation support for 58 Languages</string>
 
